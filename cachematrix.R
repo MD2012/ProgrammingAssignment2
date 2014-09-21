@@ -60,7 +60,9 @@ cacheSolve <- function(x) {
         ## if not null, returns it    
             if(!is.null(i)) {
                 message("getting cached data")
-                return(i)
+                
+                ## aa)
+                return(i) 
             }
     
     ## OR b)
@@ -75,5 +77,6 @@ cacheSolve <- function(x) {
             x$setinverse(i)
     
         ## and return the inverse
+            ## ba)
             i
 }
